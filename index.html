@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bulma.css">
+
+    <!-- JS -->
+    <script src="js/navbar.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVBAR START -->
+    <header>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+              <img src="images/logo.svg" width="112" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item">
+                Features
+              </a>
+              <a class="navbar-item">
+                Team
+              </a>
+              <a class="navbar-item">
+                Sign In
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- NAVBAR END -->
+
+    <!-- SECTION 1 START-->
+    <section class="hero has-text-centered-mobile">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <div class="">
+                <h1 class="title is-spaced">
+                  All your files in one secure location, accessible anywhere.
+                </h1>
+                <h2 class="subtitle">
+                  Fylo stores your most important files in one secure location.
+                  Access them wherever you need, share and collaborate with friends,
+                  family, and co-workers.
+                </h2>
+                <div class="field is-grouped">
+                  <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="Enter your email...">
+                  </p>
+                  <p class="control">
+                    <a class="button is-link">
+                      Get Started
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="column is-5 is-offset-1">
+              <figure class="image is-4by3">
+                <img src="images/illustration-1.svg" alt="" srcset="">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 1 END-->
+
+    <!-- SECTION 2 START-->
+    <section class="hero is-light">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <div class="">
+                <h1 class="title is-spaced has-text-centered-mobile">
+                  Stay productive, wherever you are
+                </h1>
+                <h2 class="subtitle">
+                  Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.
+                </h2>
+                <h2 class="subtitle">
+                  Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!
+                </h2>
+                <div class="content has-text-centered-mobile">
+                  <a href="">
+                    See how Fylo works
+                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="columns">
+                  <div class="column is-7">
+                    <div class="card">
+                      <div class="card-content">
+                        <div class="content">
+                          <i class="fas fa-quote-left fa-2x"></i>
+                          <br>
+                          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+                        </div>
+                        <div class="media">
+                          <div class="media-left">
+                            <figure class="image is-48x48">
+                              <img src="images/avatar-testimonial.jpg" alt="Placeholder image" class="is-rounded">
+                            </figure>
+                          </div>
+                          <div class="media-content">
+                            <div class="content">
+                              <strong>Kyle Burton</strong><br>
+                              <small>Founder & CEO, Huddle</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-5 is-offset-1">
+              <figure class="image is-4by3">
+                <img src="images/illustration-2.svg" alt="" srcset="">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 2 END-->
+
+    <!-- SECTION 3 START-->
+    <section class="hero has-text-centered-mobile">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <div class="">
+                <h1 class="title is-spaced">
+                  Get early access today
+                </h1>
+                <h2 class="subtitle">
+                  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+                </h2>
+              </div>
+            </div>
+            <div class="column is-5 is-offset-1">
+              <div class="field">
+                <p class="control">
+                  <input class="input is-medium" type="password" placeholder="email@example.com">
+                </p>
+              </div>
+              <div class="field">
+                <p class="control">
+                  <button class="button is-medium is-link">
+                    Get Started For Free
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 3 END-->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-2">
+            <div class="mb-20">
+              <figure class="image">
+                <img src="images/logo.svg" alt="" height="10">
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column is-4">
+            <ul class="footer-column">
+              <li class="column-item">
+                <a href="tel:573214032944">
+                  <i class="fas fa-phone-alt"></i>
+                  Phone: +1-543-123-4567
+                </a>
+              </li>
+              <li class="column-item">
+                <a href="mailto: example@fylo.com" target="_blank">
+                  <i class="fas fa-envelope"></i>
+                  example@fylo.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="column is-6 is-offset-2">
+            <div class="columns">
+              <div class="column">
+                <ul class="footer-column">
+                  <li class="column-item">
+                    <a href="">About us</a>
+                  </li>
+                  <li class="column-item">
+                    <a href="">Jobs</a>
+                  </li>
+                  <li class="column-item">
+                    <a href="">Press</a>
+                  </li>
+                  <li class="column-item">
+                    <a href="">Blog</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="column">
+                <ul class="footer-column">
+                  <li class="column-item">
+                    <a href="">Contact Us</a>
+                  </li>
+                  <li class="column-item">
+                    <a href="">Terms</a>
+                  </li>
+                  <li class="column-item">
+                    <a href="">Privacy</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul class="footer-column">
+                  <div class="buttons">
+                    <a class="button is-rounded" href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="button is-rounded" href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="button is-rounded" href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+  </body>
+</html>
